@@ -27,6 +27,7 @@ public class TC1_Locators {
         passwordInput.sendKeys("incorrect");
         passwordInput.sendKeys(Keys.ENTER);
 
+
         Thread.sleep(2000);
 
       String message = driver.findElement(By.className("errortext")).getText();
